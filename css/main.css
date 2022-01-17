@@ -22,11 +22,13 @@ main {
   width: 61%;
   float: right;
   margin-left: 2%;
+  position: absolute;
 }
 .container {
   width: 35%;
   float: left;
   margin-right: 2%;
+  position: relative;
 }
 .logo {
   margin-top: 20%;
