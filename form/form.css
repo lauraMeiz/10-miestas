@@ -1,6 +1,7 @@
 .form {
-  margin-top: 15%;
+  margin-top: 10%;
   width: 100%;
+  display: inline-block;
 }
 
 .form > .form-row {
@@ -17,7 +18,7 @@
 
 .form > .form-row > label {
   width: 100%;
-  font-size: 13px;
+  font-size: 10px;
   color: black;
   font-size: 15px;
 
@@ -25,43 +26,64 @@
 }
 .form > .form-row > input {
   width: 100%;
-  font-size: 20px;
-  line-height: 2em;
+  font-size: 10px;
+  line-height: 20px;
   border: none;
 }
 ::placeholder {
   color: blue;
-  font-size: 14;
+  font-size: 13px;
+  font-weight: bolder;
 }
 
-.password > input {
-  float: left;
+.form-password {
+  font-size: 13px;
 }
-.form-link {
+.form > .form-password > input {
+  margin-top: 5px;
+}
+
+.form > .form-password > label {
+  line-height: 20px;
+}
+.form > .form-password > a {
   float: right;
   text-decoration: none;
-  color: blue;
+  color: grey;
 }
 
-.password {
-  margin-top: 15px;
-}
-button {
-  width: 150px;
-  padding-bottom: 10px;
-  padding-top: 10px;
-  background-color: #3751ff;
-  margin-left: 20px;
+.form > .form-password {
   margin-top: 20px;
+  color: grey;
+}
+.form > .form-button > button {
+  border-color: #3751ff;
+  width: 100px;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  background-color: #3751ff;
+  margin-top: 40px;
   color: white;
 }
 
-button:last-child {
+.form > .form-button > .sign-up {
   background-color: white;
+  color: #3751ff;
+  margin-left: 15px;
+}
+
+.form > .socialmedia {
+  margin-top: 70px;
+  font-size: 13px;
+}
+
+.form > .socialmedia > a {
+  margin-left: 25px;
+  text-decoration: none;
+  font-weight: bolder;
   color: #3751ff;
 }
 
-.socialmedia {
-  margin-top: 30px;
-  float: left;
+.form > .socialmedia > span {
+  color: grey;
 }
