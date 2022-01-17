@@ -3,3 +3,34 @@
   width: 100%;
   margin-bottom: 10%;
 }
+
+.form > .form-row {
+  width: 100%;
+  border: 2px solid #ccc;
+}
+.form > .form-row:last-child {
+  width: 100%;
+  margin-bottom: 0;
+}
+.form > .form-row:first-child {
+  border-left: 4px solid blue;
+}
+
+.form > .form-row > label {
+  width: 100%;
+  font-size: 13px;
+  color: black;
+  font-size: 15px;
+
+  margin-bottom: 0;
+}
+.form > .form-row > input {
+  width: 100%;
+  font-size: 20px;
+  line-height: 2em;
+  border: none;
+}
+::placeholder {
+  color: blue;
+  font-size: 14;
+}
